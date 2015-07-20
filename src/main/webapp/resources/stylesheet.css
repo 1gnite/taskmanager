@@ -1,0 +1,189 @@
+/** {
+    border: 1px dashed red;
+}*/
+body {
+    margin: 0;
+    background-color: #EDE3DA;
+    font-family: Helvetica, sans-serif;
+}
+a {
+    text-decoration: none;
+}
+#bodyWrapper {
+    margin: 2px auto ;
+    width: 1024px;
+    background-color: #F4EBEB;
+    border: 2px outset gray;
+    border-radius: 5px;
+}
+#header {
+    width: 100%;
+    height: 100px;
+    background-color: #695F5D;
+    font-family: Helvetica, sans-serif;
+    color: #F4F1EF;
+}
+#header a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #F4F1EF;
+}
+#header-menu-wrapper {
+    margin-top: 10px;
+    float: left;
+}
+#header-menu li {
+    display: inline-block;
+    text-align: center;
+}
+#header-menu a {
+    display: block;
+    padding: 10px 10px;
+}
+#header-menu a:hover {
+    background-color: #F4F1EF;
+    color: #695F5D;
+}
+#header-account-wrapper {
+    float: right;
+    height: 60px;
+    margin-top: 15px;
+    position: relative;
+    font-size: 12px;
+}
+#userpic {
+    display: inline-block;
+    float: left;
+    margin-right: 5px;
+    border: 2px solid #EDE3DA;
+}
+#userpic img {
+    border: 1px solid gray;
+    border-radius: 4px;
+}
+#userform {
+    display: inline-block;
+    float: right;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+input[type="text"], input[type="password"] {
+    background: #F4EBEB;
+    color: #400412;
+    border-radius: 5px;
+    font-size: 14px;
+    text-align: center;
+}
+input[type="submit"] {
+    background: #F4EBEB;
+    color: #400412;
+    border-radius: 5px;
+    border: 2px solid #F4F1EF;
+    font-size: 14px;
+}
+#content {
+    width: 100%;
+    margin-top: 0;
+    padding-top: 0;
+    border-top: 2px solid black;
+}
+#content-top-bar {
+    background-color: #B4A7A5;
+    width: 100%;
+}
+#content-top-spacer {
+    display: inline-block;
+    width: 200px;
+    font-family: Century Gothic;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bolder;
+}
+#content-top-menu {
+    display: inline-block;
+    width: 818px;
+}
+#content-top-menu ul {
+    padding: 0;
+    margin: 0;
+}
+#content-top-menu li {
+    display: inline-block;
+}
+#content-top-menu li a {
+    margin: 0 0 0 15px;
+    padding: 2px 20px 0 20px;
+    display: block;
+    height: 25px;
+    color: #461205;
+    font-weight: bold;
+    font-family: Century Gothic;
+    font-size: 14px;
+}
+#content li a:hover {
+    color: #F4F1EF;
+    background-color: #695F5D;
+}
+
+#content-bodycontent {
+    width: 1024px;
+    background-color: #F4EBEB;
+    border-top: 1px solid black;
+}
+#content-left-bar {
+    display: inline-block;
+    width: 200px;
+    background-color: #B4A7A5;
+    vertical-align: top;
+    margin: 0;
+    padding: 0;
+}
+#content-left-bar ul {
+    padding: 0;
+    margin: 0;
+}
+#content-left-bar li {
+    display: block;
+}
+#content-left-bar a {
+    margin: 0 0 0 0;
+    padding: 2px 20px 0 20px;
+    display: block;
+    height: 25px;
+    color: #461205;
+    font-weight: bold;
+    font-family: Century Gothic;
+    font-size: 14px;
+}
+#content-left-bar ul li ul a {
+    margin: 0 0 0 0;
+    padding: 2px 20px 0 30px;
+    display: block;
+    height: 20px;
+    color: #461205;
+    font-weight: bold;
+    font-family: Century Gothic;
+    font-size: 12px;
+}
+#content-right-bar {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    width: 818px;
+    vertical-align: top;
+}
+table .division {
+    background: red;
+}
+#footer {
+    margin: auto;
+    width: 1024px;
+}
+#inscription {
+    float: right;
+}
+
+.error {
+    font-size: 10px;
+    color: maroon;
+}
